@@ -29,8 +29,8 @@ export default function Register() {
         }
     }
   return (
-    <div className="container">
-      <div className="center">
+    <div className="main_container">
+      <div className="center_filed">
           <h1>Basma</h1>
           <form method="POST" onSubmit={async (e) => await register(e)}>
               <div className="txt_field">
