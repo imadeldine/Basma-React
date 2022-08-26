@@ -8,9 +8,9 @@ import "./Navbar.css";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
-  const toggleMenu = () => {
-    setShowMenu(!showMenu);
-  };
+//   const toggleMenu = () => {
+//     setShowMenu(!showMenu);
+//   };
   return (
     <nav className="navbar container">
       <menu>
