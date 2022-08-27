@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 // import { AiOutlineBars } from "react-icons/ai";
 // import { RiCloseLine } from "react-icons/ri";
 
@@ -6,17 +6,12 @@ import React, { useState } from "react";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [showMenu, setShowMenu] = useState(false);
-
-//   const toggleMenu = () => {
-//     setShowMenu(!showMenu);
-//   };
+  
   return (
     <nav className="navbar container">
       <menu>
         <ul
           className="nav-links"
-          id={showMenu ? "nav-links-mobile" : "nav-links-mobile-hide"}
         >
           <li>
             <a href="#feal">Home</a>
