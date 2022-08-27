@@ -1,0 +1,85 @@
+#challenge{
+    position: relative;
+    width: 95vw;
+    margin: 0 auto;
+
+    height: 80vh;
+    background: linear-gradient(120deg,#4727DB ,#8432e5);
+}
+.title3 {
+    text-align: center;
+    margin-bottom: 6rem;
+    position: relative;
+  }
+  
+  .title3 h2 {
+    position: relative;
+    font-size: 4rem;
+    color: white;
+    margin: 1.5rem 0;
+  }
+  
+  .title3 p {
+    position: relative;
+    font-size: 1.3rem;
+    width: 62%;
+    min-width: 40rem;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .challenge-content {
+    display: flex;
+    width: 107%;
+    /* justify-content: center; */
+    /* padding: 3rem 0; */
+  }
+  .challenge-left {
+    flex: 1;
+    text-align: center;
+  }
+  .challenge-left img {
+    width: 65%;
+  }
+  .challenge-right {
+    /* flex: 1; */
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .down-part1 img{
+    width: 15%;
+    align-self: center;
+    margin-bottom: 2%;
+  }
+  .down-part1 h1{
+    color: white;
+    margin-bottom: 4%;
+    font-size: 20px;
+  }
+  .down-part1 p{
+    color: white;
+    width: 80%;
+    font-size: 1.4rem;
+    margin-left: 10%;
+  }
+  .down-part{
+    display: flex;
+    text-align: center;
+  }
+  .chevron1{
+    position: absolute;
+    right: 810px;
+    top:330px;
+}
+.chevron{
+    position: absolute;
+    left: 850px;
+    top:330px;
+}
+  @media screen and (max-width: 600px) {
+    .challenge-content {
+      flex-direction: column;
+    }
+  }
+  
