@@ -1,0 +1,29 @@
+.share {
+  position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: 2erm;
+  }
+  
+ 
+  
+  .inner2-icon {
+    position: absolute;
+    top: 65%;
+    left: -7%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+  }
+  
+  .share-text h3 {
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: var(--light-blue);
+  }
+  .share-text p{
+    font-size: 1.5rem;
+    width: 60%;
+  }

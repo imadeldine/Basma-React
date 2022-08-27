@@ -1,18 +1,28 @@
-import './App.css';
+import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Register from "./pages/Register";
-import { Header,Navbar,Features,Work } from "./components";
+import { Header, Navbar, Features, Work, Share } from "./components";
 function App() {
   return (
     <div className="App">
-    <Router>
+      <Router>
         <Routes>
-        <Route path="/" exact element={<Register />} /> 
-        <Route path='/home' exact element={<div><Navbar/><Header/><Features/><Work/></div>}/>
-        
-        
+          <Route path="/" exact element={<Register />} />
+          <Route
+            path="/home"
+            exact
+            element={
+              <div>
+                <Navbar />
+                <Header />
+                <Features />
+                <Work />
+                <Share />
+              </div>
+            }
+          />
         </Routes>
-    </Router>
+      </Router>
     </div>
   );
 }
