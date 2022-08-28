@@ -1,0 +1,198 @@
+#cards {
+  position: relative;
+}
+.container-cards {
+ 
+  width: 95vw;
+  height: 90vh;
+  margin: 0 auto;
+  background-color: rgb(229, 231, 234);
+
+}
+.title-card {
+    position: relative;
+  text-align: center;
+  
+}
+
+.title-card h2 {
+ padding-top: 5%;
+ padding-bottom:1.5% ;
+  font-size: 4rem;
+  font-weight: 280px;
+  line-height: 1.4;
+  
+}
+
+.title-card p {
+ 
+  font-size: 1.3rem;
+  width: 45%;
+  min-width: 40rem;
+  margin: 0 auto;
+ 
+}
+.title-card h2::after {
+  content: "";
+  position: absolute;
+  left: 640px;
+  bottom: 50px;
+  width: 6%;
+  height: 2px;
+  background: #4727db;
+}
+.both-cards{
+    display: flex;
+  }
+.card-top{
+    background-color: rgb(246, 245, 245);
+    height: 370px;
+    width: 250px;
+    margin-top: 7rem;
+    margin-left: 38rem;
+    border-radius: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .card-top img{
+    width: 50px;
+    margin-left: 10rem;
+    margin-top: 3rem;
+  }
+  .titl{
+    margin-left: 10rem;
+    margin-top: 0.8rem;
+  font-size: 155%; 
+  
+  }
+  .price{
+    margin-left: 10rem;
+    font-size: 17px;
+    margin-top: 2rem;
+    color: #8432e5;
+  }
+  .price1{
+    position: absolute;
+    margin-left: 11rem;
+    top: 37.5rem;
+    font-size: 30px;
+    font-weight: bold;
+    color: #8432e5;
+
+
+  }
+  .card_content p{
+    border-top: 1px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 2rem;
+  }
+  .card_content{
+   max-width: 85%;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 1.4rem;
+    margin-left: 1rem;
+  }
+  
+  .button_Signup {
+    appearance: button;
+    backface-visibility: hidden;
+    background: linear-gradient(120deg,#4727DB ,#8432e5);
+    border-radius: 6px;
+    border-width: 0;
+    color: #fff;
+    cursor: pointer; 
+    font-size: 13px;
+    height: 40px;
+    padding: 0 25px;
+    margin-top: 0.1rem;
+    margin-left: 1rem;
+    
+  }
+  
+
+  .card-top2{
+    background-color: rgb(246, 245, 245);
+    height: 370px;
+    width: 250px;
+    margin-top: 7rem;
+    margin-left: 12rem;
+    border-radius: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .card-top2 img{
+    width: 50px;
+    margin-left: 10rem;
+    margin-top: 3rem;
+  }
+  .titl2{
+    margin-left: 11rem;
+    margin-top: 0.8rem;
+  font-size: 155%; 
+  
+  }
+  .price{
+    margin-left: 10rem;
+    font-size: 17px;
+    margin-top: 2rem;
+    color: #8432e5;
+  }
+  .price2{
+    position: absolute;
+    margin-left: 11rem;
+    top: 37.5rem;
+    font-size: 30px;
+    font-weight: bold;
+    color: #8432e5;
+
+
+  }
+  .card_content2 p{
+    border-top: 1px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 2rem;
+  }
+  .card_content2{
+   max-width: 85%;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 1.4rem;
+    margin-left: 1rem;
+  }
+  
+  .button_Signup2 {
+    appearance: button;
+    backface-visibility: hidden;
+    background: linear-gradient(120deg,#4727DB ,#8432e5);
+    border-radius: 6px;
+    border-width: 0;
+    color: #fff;
+    cursor: pointer; 
+    font-size: 13px;
+    height: 40px;
+    padding: 0 25px;
+    margin-top: 0.1rem;
+    margin-left: 1rem;
+  
+  }
+
+  .footer{
+    font-weight: bold;
+    font-size: 11px;
+    margin-top: 4%;
+  }
+  .footer p{
+margin-left: 42%;
+  }
+  .footer a{
+    color: #000;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    position: absolute;
+    left: 52.5%;
+    top: 95.4%;
+  }

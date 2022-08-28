@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Register from "./pages/Register";
-import { Header, Navbar, Features, Work, Share,Challenge } from "./components";
+import { Header, Navbar, Features, Work, Share,Challenge,Card } from "./components";
 function App() {
   return (
     <div className="App">
@@ -19,6 +19,7 @@ function App() {
                 <Work />
                 <Share />
                 <Challenge/>
+                <Card/>
               </div>
             }
           />
