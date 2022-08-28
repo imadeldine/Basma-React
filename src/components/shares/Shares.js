@@ -17,7 +17,7 @@ const Shares = () => {
     });
   }, []);
   return (
-    <section id="shares">
+    <div id="shares">
       <div className="container-shares">
         
 
@@ -47,7 +47,7 @@ const Shares = () => {
             <Button text={"Learn More"} btnClass={"btn-light"} href={"#"} />
           </div>
       </div>
-    </section>
+    </div>
   );
 };
 

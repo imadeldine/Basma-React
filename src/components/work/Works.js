@@ -17,7 +17,7 @@ const Works = () => {
     });
   }, []);
   return (
-    <section id="works">
+    <div id="works">
       <div className="container-works">
         <div className="work-right" data-aos="fade1-left">
           <img src={phoneFeature} alt="phone" />
@@ -47,7 +47,7 @@ const Works = () => {
         </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

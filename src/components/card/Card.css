@@ -4,7 +4,7 @@
 .container-cards {
  
   width: 95vw;
-  height: 90vh;
+  height: 100vh;
   margin: 0 auto;
   background-color: rgb(229, 231, 234);
 
@@ -183,6 +183,7 @@
     font-weight: bold;
     font-size: 11px;
     margin-top: 4%;
+    
   }
   .footer p{
 margin-left: 42%;
@@ -194,5 +195,6 @@ margin-left: 42%;
     text-decoration: underline;
     position: absolute;
     left: 52.5%;
-    top: 95.4%;
+    top: 86%;
+   
   }
