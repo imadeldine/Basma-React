@@ -6,3 +6,4 @@ export { default as Share } from "./shares/Shares";
 export { default as Challenge } from "./challenge/Challenge";
 export { default as Card } from "./card/Card";
 export { default as Store } from "./store/Store";
+export { default as Stay } from "./stay/Stay";

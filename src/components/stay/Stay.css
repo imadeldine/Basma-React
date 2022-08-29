@@ -1,0 +1,170 @@
+#Stay {
+    position: relative;
+  }
+  .container-stay {
+   
+    width: 95vw;
+    height: 80vh;
+    margin: 0 auto;
+    background-color: rgb(240, 245, 251);
+  
+  }
+  .title-stay {
+      position: relative;
+    text-align: center;
+    
+  }
+  
+  .title-stay h2 {
+   padding-top: 5%;
+   padding-bottom:1.5% ;
+    font-size: 4rem;
+    font-weight: 280px;
+    line-height: 1.4;
+    
+  }
+  
+  .title-stay p {
+   
+    font-size: 1.3rem;
+    width: 43%;
+    min-width: 40rem;
+    margin: 0 auto;
+   
+  }
+  .title-stay h2::after {
+    content: "";
+    position: absolute;
+    left: 648px;
+    bottom: 50px;
+    width: 5%;
+    height: 2px;
+    background: #4727db;
+  }
+.stay-down{
+    display: flex;
+    margin-top: 5%;
+}
+.down-left{
+    flex: 1;
+    position: absolute;
+    left:33rem;
+}
+
+.down-left p{
+    width: 37%;
+    padding: 1%;
+    
+}
+.down-left p:nth-child(2){
+    width: 30%;
+    margin-right: 10%;
+}
+.down-left p:nth-child(3){
+}
+.down-left p:nth-child(4){
+    width: 30%;
+    margin-right: 10%;
+}
+  .down-left img{
+    margin-right: 1%;
+    width: 55%;
+  }
+
+  .left1{
+    display: flex;
+  }
+  .left1 img{
+    position: absolute;
+    width: 1.6%;
+    left:0.8rem;
+    top:7.7rem;
+  }
+  .left2 img{
+    position: absolute;
+    width: 1.5%;
+    left:0.8rem;
+    top:11.5rem;
+  }
+  .left3 img{
+    position: absolute;
+    width: 1.5%;
+    left:0.8rem;
+    top:15.3rem;
+  }
+  .left1 span{
+    margin-top: 1%;
+    width:3.7%;
+   max-height: 30px;
+    background-color: #7a26e1;
+    border-radius: 8%;
+  }
+  .left2 span{
+    width:3.7%;
+   max-height: 30px;
+    background-color: #7a26e1;
+    border-radius: 8%;
+
+  }
+  .left3 span{
+    width:3.7%;
+   max-height: 30px;
+    background-color: #7a26e1;
+    border-radius: 8%;
+  }
+  .left2{
+    display: flex;
+   
+  }
+  .left3{
+    display: flex;
+    margin-top: 1%;
+  }
+.down-rigth{
+    
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+  .down-rigth input {
+   
+   width: 30%;
+   height: 10%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    resize: none;
+    outline: none;
+    border-radius: 1px;
+    text-align: start;
+    margin-left: 50%;
+  }
+  .down-rigth textarea{
+    width: 30%;
+    height: 340%;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+     border: none;
+     resize: none;
+     outline: none;
+     border-radius: 1px;
+     text-align: start;
+     margin-left: 50%;
+  }
+  .down-rigth button{
+    position: absolute;
+    appearance: button;
+    backface-visibility: hidden;
+    background: #7319e2;
+    border-radius: 6px;
+    border-width: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    height: 40px;
+    padding: 0 25px;
+    left: 72rem;
+    top: 52rem;
+    width: 28.5%;
+  }
+  input{
+    padding: 1%;
+  }

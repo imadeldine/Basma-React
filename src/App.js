@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Register from "./pages/Register";
-import { Header, Navbar, Features, Work, Share,Challenge,Card,Store } from "./components";
+import { Header, Navbar, Features, Work, Share,Challenge,Card,Store,Stay } from "./components";
 function App() {
   return (
     <div className="App">
@@ -21,6 +21,7 @@ function App() {
                 <Challenge/>
                 <Card/>
                 <Store/>
+                <Stay/>
               </div>
             }
           />

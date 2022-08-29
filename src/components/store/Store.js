@@ -19,7 +19,9 @@ const Store = () => {
       <div
         className="container-store"
         style={{
-          backgroundImage: `url(${team})`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.5)),
+          url(${team})`
+          
         }}
       ></div>
 
@@ -38,15 +40,15 @@ const Store = () => {
       </div>
       <div className="second-pard">
         <img className="news" src={news} alt="appstore" />
-        <h1>Subscribe to get updats</h1>
+        <h1>Subscribe to get updates</h1>
         <p>
           By subscribing you will get newsleter, promotions adipisicing elit.
           Architecto beatae, asperiores tempore repudiandae saepe aspernatur
           unde voluptate sapiente quia ex.
         </p>
         <div className="input-sub">
-          <input type="text" />
-          <label>Enter your email</label>
+          <input type="text" placeholder=" Enter your email" />
+        
         </div>
         <button className="button-sub" >
           Subscribe

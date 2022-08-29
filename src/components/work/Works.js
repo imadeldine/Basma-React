@@ -3,9 +3,9 @@ import "./Works.css";
 import Work from "./Work";
 import {WorkList } from "./data";
 import phoneFeature from "../../assets/thumb-2 (1).png";
-import house from "../../assets/form-house.svg";
-import mail from "../../assets/form-mail.svg";
-import phone from "../../assets/form-phone.svg";
+import alarm from "../../assets/alarm.svg";
+import game from "../../assets/game.svg";
+import mic from "../../assets/mic.svg";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -41,9 +41,9 @@ const Works = () => {
           </div>
           <div className="small-card" >
           
-          <img className="image" src={house} alt="house" />
-          <img className="image" src={phone} alt="phone" />
-          <img className="image" src={mail} alt="mail" />
+          <img className="image" src={alarm} alt="alarm" />
+          <img className="image" src={game} alt="game" />
+          <img className="image" src={mic} alt="mic" />
         </div>
         </div>
       </div>
