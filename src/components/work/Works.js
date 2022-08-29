@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./Works.css";
 import Work from "./Work";
-import {WorkList } from "./data";
+import { WorkList } from "./data";
 import phoneFeature from "../../assets/thumb-2 (1).png";
 import alarm from "../../assets/alarm.svg";
 import game from "../../assets/game.svg";
@@ -32,19 +32,19 @@ const Works = () => {
           </div>
           <div className="works-right" data-aos="fade1-up">
             {WorkList.map((feature) => (
-              <Work
-                key={feature.id}
-                icon={feature.icon}
-                text={feature.text}
-              />
+              <Work key={feature.id} icon={feature.icon} text={feature.text} />
             ))}
           </div>
-          <div className="small-card" >
-          
-          <img className="image" src={alarm} alt="alarm" />
-          <img className="image" src={game} alt="game" />
-          <img className="image" src={mic} alt="mic" />
-        </div>
+          <div className="small-card">
+            <img className="image" src={alarm} alt="alarm" />
+            <img className="image" src={game} alt="game" />
+            <img className="image" src={mic} alt="mic" />
+          </div>
+          <div className="small-card1">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </div>
     </div>

@@ -5,8 +5,9 @@ const Share = ({ icon, text }) => {
   return (
     <div className="share">
       <div className="share-icon">
-       
-        <div className="inner2-icon">{icon}</div>
+      
+          <div className="inner2-icon">{icon}</div>
+      
       </div>
 
       <div className="share-text">

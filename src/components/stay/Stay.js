@@ -3,6 +3,7 @@ import "./Stay.css";
 import home from "../../assets/form-house.svg";
 import phone from "../../assets/form-phone.svg";
 import mail from "../../assets/form-mail.svg";
+import arrow from "../../assets/arrow-up.svg";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -44,7 +45,7 @@ const Stay = () => {
               <span>
                 <img src={phone} alt="phone" />
               </span>
-              <p>+| 230 456 789-012 345 6789  </p>
+              <p>+| 230 456 789-012 345 6789 </p>
             </div>
             <div className="left3">
               <span>
@@ -71,6 +72,11 @@ const Stay = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="arrow">
+      <a href="#header">
+        <img src={arrow} alt="home" />
+        </a>
       </div>
     </div>
   );

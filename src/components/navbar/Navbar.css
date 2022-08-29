@@ -10,18 +10,17 @@
   
   .nav-links {
     display: flex;
-    color: rgb(231, 12, 12);
   }
   
   .nav-links li {
-    margin-left: 10px;
+    margin-left: 18px;
     list-style: none;
   }
   
   .nav-links a {
     font-size: 16px;
     font-weight: 300;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     margin-right: 1rem;
     transition: all 0.3s;
@@ -31,28 +30,6 @@
     color: orangered;
   }
   
-  /* a.btn {
-    border-radius: 5px;
-    padding: 5px 8px;
-    margin-left: 1rem;
-    font-weight: 500;
-  }
-  
-  a.btn-dark {
-    background: transparent;
-    border: 2px solid #fff;
-  }
-  a.btn-light {
-    background: #fff;
-    border: 2px solid transparent;
-    color: #0a1930;
-  } */
-  
-  .navbar .menu-icons {
-    background: transparent;
-    border: none;
-    display: none;
-  }
   
   /* Media Queries */
   @media screen and (max-width: 769px) {

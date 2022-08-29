@@ -5,11 +5,13 @@
   margin-bottom: 5%;
   display: flex;
   flex-direction: row;
-  background-color: rgb(229, 231, 234);
+  background-color: rgb(240, 245, 251);
+  
+  z-index: -1;
 }
 .title1 {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
 }
 
 .title1 h1 {
@@ -47,8 +49,9 @@
 }
 .works-right {
   flex: 1;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 20%;
+  
 }
 
 .work-right {
@@ -58,21 +61,68 @@
 }
 .small-card {
   
-  position: relative;
+  position: absolute;
   display: flex;
-  margin-bottom: 22%;
-  left: 10%;
-  
+  left: 51.5%;
+  top:206rem;  
 }
 .small-card image:nth-child(1){ 
+
   position: absolute;
+  left: 100rem;
+  z-index: 2;
   
 }
-
+.small-card image{
+  position: absolute;
+  padding: 1%;
+  z-index: 2;
+}
 
 .image{
-margin: 2%;
- 
+margin: 18%; 
+z-index: 2;
+
+}
+
+.small-card1 span:nth-child(1){
+  z-index: 1;
+  position: absolute;
+  left:74rem;
+  top:208rem;
+  min-width: 4rem;
+  min-height: 4rem;
+  background-color: #fafafa;
+  border-radius: 8%;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2); 
+  border:0.9px solid rgb(206, 206, 206);
+  
+}
+.small-card1 span:nth-child(2){
+  z-index: 1;
+  position: absolute;
+  left:79rem;
+  top:208rem;
+  min-width: 4rem;
+  min-height: 4rem;
+  background-color: #fafafa;
+  border-radius: 8%;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2); 
+  border:0.9px solid rgb(206, 206, 206);
+  
+}
+.small-card1 span:nth-child(3){
+  z-index: 1;
+  position: absolute;
+  left:84rem;
+  top:208rem;
+  min-width: 4rem;
+  min-height: 4rem;
+  background-color: #fafafa;
+  border-radius: 8%;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2); 
+  border:0.9px solid rgb(206, 206, 206);
+  
 }
 @media screen and (max-width: 600px) {
   .works-content {
