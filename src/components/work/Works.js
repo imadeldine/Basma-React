@@ -37,8 +37,8 @@ const Works = () => {
           </div>
           <div className="small-card">
             <img className="image" src={alarm} alt="alarm" />
-            <img className="image" src={game} alt="game" />
-            <img className="image" src={mic} alt="mic" />
+            <img className="imagee" src={game} alt="game" />
+            <img className="imageee" src={mic} alt="mic" />
           </div>
           <div className="small-card1">
             <span></span>
