@@ -1,7 +1,4 @@
 import React from "react";
-// import { AiOutlineBars } from "react-icons/ai";
-// import { RiCloseLine } from "react-icons/ri";
-
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -16,16 +13,16 @@ const Navbar = () => {
             <a href="#features">Features</a>
           </li>
           <li>
-            <a href="#download">Pages</a>
+            <a href="#works">Pages</a>
           </li>
           <li>
-            <a href="#subscribe">Screenshots</a>
+            <a href="#shares">Screenshots</a>
           </li>
           <li>
-            <a href="#subscribe">Pricing</a>
+            <a href="#challenge">Pricing</a>
           </li>
           <li>
-            <a href="#subscribe">Contact</a>
+            <a href="#Stay">Contact</a>
           </li>
         </ul>
       </menu>

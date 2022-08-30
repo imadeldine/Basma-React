@@ -12,7 +12,7 @@
     line-height: 1.4;
     color: black;
     position: relative;
-    margin-top: 17%;
+    margin-top: 3%;
   }
   
   .header h1 span:nth-child(1),
@@ -43,7 +43,7 @@
     width: 140%;
     position: relative;
     right: 70%;
-    margin-top: 21%;
+    margin-top: -20%;
     z-index: 1;
   }
   
@@ -52,7 +52,7 @@
     position: absolute;
     width: 60%;
     left:51rem;
-    top:-16rem;
+    top:-27rem;
     z-index: -1;
   }
 
@@ -65,10 +65,18 @@
       transform: translateY(25%);
     }
   }
-  
+  @media screen and (max-width: 900px) {
+    
+    .rot{
+      display: none;
+    }
+  }
   @media screen and (max-width: 769px) {
     .header h1 {
       font-size: 3rem;
+    }
+    .rot{
+      display: none;
     }
   }
   

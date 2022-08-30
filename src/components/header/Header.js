@@ -35,7 +35,7 @@ const Header = () => {
         <div className="header-right" data-aos="fade-left">
           <img src={phoneHeader} alt="phone" />
         </div>
-        <img className="rot" src={rotate} alt="rotate" />
+        <img className="rot" src={rotate} alt="rotate" data-aos="fade-left"/>
       </div>
       
     </section>

@@ -8,12 +8,12 @@ export const ShareList = [
   {
     id: 1,
     icon:  <img src={layers} alt="check" />,
-    text: "Fully layered dolor sit amet, consectetur adipisicing elit.Facere, nobis, id expedita dolores officiis laboriosam.",
+    text: "Fully layered dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores officiis laboriosam.",
   },
   {
     id: 2,
     icon: <img src={brush} alt="check" />,
-    text: "Customizable design dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores officiis laboriosam.",
+    text: "Customizable design dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores officiis laboriosam. " 
   },
   {
     id: 3,
