@@ -53,7 +53,7 @@ const Cards = () => {
               <p>Unlimited Email</p>
               <p>Daily Backups</p>
               <p></p>
-              <button class="button_Signup2" role="button">
+              <button className="button_Signup2" role="button">
                 Sign Up
               </button>
             </div>

@@ -10,7 +10,7 @@ export default function Register() {
   const navigate = useNavigate();
   const register = async (e) => {
     e.preventDefault();
-    const result = await fetch("http://localhost:8000/api/AddCustomer", {
+    const result = await fetch("https://glacial-savannah-12195.herokuapp.com/api/AddCustomer", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
