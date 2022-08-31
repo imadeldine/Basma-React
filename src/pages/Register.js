@@ -7,9 +7,12 @@ export default function Register() {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [password, setPassword] = useState("");
+  const [error,setError]=useState(false)
+  const[errMsg,setErrorMsg]=useState("")
   const navigate = useNavigate();
   const register = async (e) => {
     e.preventDefault();
+    try {
     const result = await fetch("https://glacial-savannah-12195.herokuapp.com/api/AddCustomer", {
       method: "POST",
       headers: {
@@ -24,8 +27,20 @@ export default function Register() {
         password: password,
       }),
     });
-    if (result.status === 200) {
+    if (result.status === 200) 
       navigate("/home");
+      if(result.status!==200){
+        const data=await result.json();
+setError(true);
+setErrorMsg(Object.values(data.error)[0][0])
+
+      // setErrorMsg(Object.values(data)[0])
+      }
+    }catch(e) {
+      
+      console.log(e)
+      setError(true);
+      setErrorMsg(Object.values(e)[0])
     }
   };
   return (
@@ -91,6 +106,7 @@ export default function Register() {
 
           <input name="submit" type="Submit" value="Sign Up" />
           <div className="signup_link"></div>
+          {error && errMsg}
         </form>
       </div>
     </div>
