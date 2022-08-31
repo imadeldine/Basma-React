@@ -7,12 +7,12 @@ export default function Register() {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [password, setPassword] = useState("");
-  // const [error,setError]=useState(false)
-  // const[errMsg,setErrorMsg]=useState("")
+  const [error,setError]=useState(false)
+  const[errMsg,setErrorMsg]=useState("")
   const navigate = useNavigate();
   const register = async (e) => {
     e.preventDefault();
-    // try {
+    try {
     const result = await fetch("https://glacial-savannah-12195.herokuapp.com/api/AddCustomer", {
       method: "POST",
       headers: {
@@ -29,19 +29,19 @@ export default function Register() {
     });
     if (result.status === 200) 
       navigate("/home");
-//       if(result.status!==200){
-//         const data=await result.json();
-// setError(true);
-// setErrorMsg(Object.values(data.error)[0][0])
+      if(result.status!==200){
+        const data=await result.json();
+setError(true);
+setErrorMsg(Object.values(data.error)[0][0])
 
-      // setErrorMsg(Object.values(data)[0])
+      setErrorMsg(Object.values(data)[0])
       }
-    // }catch(e) {
+    }catch(e) {
       
-    //   console.log(e)
-    //   setError(true);
-    //   setErrorMsg(Object.values(e)[0])
-    // }
+      console.log(e)
+      setError(true);
+      setErrorMsg(Object.values(e)[0])
+    }
 
   };
   return (
@@ -113,3 +113,4 @@ export default function Register() {
     </div>
   );
 
+  }
