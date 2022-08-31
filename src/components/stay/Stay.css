@@ -36,7 +36,7 @@
     content: "";
     position: absolute;
     left: 648px;
-    bottom: 50px;
+    bottom: 45px;
     width: 5%;
     height: 2px;
     background: #4727db;
@@ -52,13 +52,15 @@
 }
 
 .down-left p{
+  font-size: 13px;
     width: 37%;
-    padding: 1%;
+    padding-bottom: 2%;
     
 }
 .down-left p:nth-child(2){
     width: 30%;
     margin-right: 10%;
+padding-left: 1%;
 }
 
 .down-left p:nth-child(4){
@@ -76,38 +78,41 @@
   .left1 img{
     position: absolute;
     width: 1.6%;
-    left:0.8rem;
-    top:7.7rem;
+    left:1.1rem;
+    top:9rem;
   }
   .left2 img{
     position: absolute;
     width: 1.5%;
-    left:0.8rem;
-    top:11.5rem;
+    left:1.1rem;
+    top:14.3rem;
   }
   .left3 img{
     position: absolute;
     width: 1.5%;
-    left:0.8rem;
-    top:15.3rem;
+    left:1.1rem;
+    top:19.1rem;
   }
   .left1 span{
-    margin-top: 1%;
+    margin-top: 0.3%;
     width:3.7%;
-   max-height: 30px;
+   max-height: 35px;
     background-color: #7a26e1;
     border-radius: 8%;
   }
   .left2 span{
+    margin-top: -0.5%;
     width:3.7%;
-   max-height: 30px;
+   max-height: 35px;
     background-color: #7a26e1;
     border-radius: 8%;
 
   }
   .left3 span{
+    margin-top: -0.5%;
+
     width:3.7%;
-   max-height: 30px;
+   max-height: 35px;
     background-color: #7a26e1;
     border-radius: 8%;
   }

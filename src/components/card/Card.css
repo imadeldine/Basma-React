@@ -37,7 +37,7 @@
   content: "";
   position: absolute;
   left: 640px;
-  bottom: 50px;
+  bottom: 48px;
   width: 6%;
   height: 2px;
   background: #4727db;
@@ -47,7 +47,7 @@
   }
 .card-top{
     background-color: rgb(246, 245, 245);
-    height: 370px;
+    height: 390px;
     width: 250px;
     margin-top: 7rem;
     margin-left: 38rem;
@@ -63,13 +63,18 @@
   .titl{
     margin-left: 10rem;
     margin-top: 0.8rem;
+    margin-bottom: 6rem;
   font-size: 155%; 
   
+  }
+  .card-top h1{
+    position: absolute;
+    top:36rem;
+    left: 41rem;
   }
   .price{
     margin-left: 10rem;
     font-size: 17px;
-    margin-top: 2rem;
     color: #8432e5;
   }
   .price1{
@@ -83,10 +88,11 @@
 
   }
   .card_content p{
-    border-top: 1px solid grey;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border-top: 1px solid rgb(183, 181, 181);
+    padding-top: 14px;
+    padding-bottom: 12px;
     margin-left: 2rem;
+    
   }
   .card_content{
    max-width: 85%;
@@ -94,6 +100,7 @@
     text-align: center;
     margin-top: 1.4rem;
     margin-left: 1rem;
+   
   }
   
   .button_Signup {
@@ -107,7 +114,7 @@
     font-size: 13px;
     height: 40px;
     padding: 0 25px;
-    margin-top: 0.1rem;
+    margin-top: -1rem;
     margin-left: 1rem;
     
   }
@@ -115,14 +122,18 @@
 
   .card-top2{
     background-color: rgb(246, 245, 245);
-    height: 370px;
+    height: 390px;
     width: 250px;
     margin-top: 7rem;
     margin-left: 12rem;
     border-radius: 1rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
-
+  .card-top2 h1{
+    position: absolute;
+    top:36rem;
+    left: 78rem;
+  }
   .card-top2 img{
     width: 50px;
     margin-left: 10rem;
@@ -131,13 +142,14 @@
   .titl2{
     margin-left: 11rem;
     margin-top: 0.8rem;
+    margin-bottom: 6rem;
   font-size: 155%; 
   
   }
   .price{
     margin-left: 10rem;
     font-size: 17px;
-    margin-top: 2rem;
+    margin-top:3rem;
     color: #8432e5;
   }
   .price2{
@@ -151,9 +163,9 @@
 
   }
   .card_content2 p{
-    border-top: 1px solid grey;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border-top: 1px solid rgb(183, 181, 181);
+    padding-top: 14px;
+    padding-bottom: 12px;
     margin-left: 2rem;
   }
   .card_content2{
@@ -175,7 +187,7 @@
     font-size: 13px;
     height: 40px;
     padding: 0 25px;
-    margin-top: 0.1rem;
+    margin-top: -1rem;
     margin-left: 1rem;
   
   }
@@ -196,6 +208,6 @@ margin-left: 42%;
     text-decoration: underline;
     position: absolute;
     left: 52.5%;
-    top: 86%;
+    top: 88.5%;
    
   }

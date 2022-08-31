@@ -40,9 +40,9 @@
   }
   
   .header-right img {
-    width: 140%;
+    width: 130%;
     position: relative;
-    right: 70%;
+    right: 60%;
     margin-top: -20%;
     z-index: 1;
   }

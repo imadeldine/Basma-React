@@ -48,11 +48,12 @@
 }
 
 .share-right {
-  margin-left: 27%;
+  margin-left: 23%;
   margin-top: 5%;
   z-index: 2;
 }
 .share-right img {
+  width: 95%;
   z-index: 2;
 }
 .learn-cta {
@@ -65,7 +66,7 @@
   z-index: 1;
   position: absolute;
   left: 20.2rem;
-  top: 260.3rem;
+  top: 247.2rem;
   min-width: 4rem;
   min-height: 4rem;
   background-color: #fafafa;
@@ -77,7 +78,7 @@
   z-index: 1;
   position: absolute;
   left: 20.2rem;
-  top: 267rem;
+  top: 253.5rem;
   min-width: 4rem;
   min-height: 4rem;
   background-color: #fafafa;
@@ -89,7 +90,7 @@
   z-index: 1;
   position: absolute;
   left: 20.2rem;
-  top: 273.4rem;
+  top: 260.2rem;
   min-width: 4rem;
   min-height: 4rem;
   background-color: #fafafa;
@@ -100,8 +101,8 @@
 .small-card2 span:nth-child(4) {
   z-index: 1;
   position: absolute;
-  left: 20.1rem;
-  top: 280rem;
+  left: 20.2rem;
+  top: 266.9rem;
   min-width: 4rem;
   min-height: 4rem;
   background-color: #fafafa;
